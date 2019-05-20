@@ -3,16 +3,7 @@ title: "Impor Data dan Konsep Tidy Data"
 author: "Muhammad Aswan Syahputra"
 date: "4/9/2019"
 output:
-  html_document: 
-    df_print: default
-    fig_height: 6
-    fig_width: 9
-    highlight: textmate
-    keep_md: yes
-    theme: yeti
-    toc: yes
-    toc_collapsed: yes
-    toc_float: yes
+  github_document: 
 editor_options: 
   chunk_output_type: inline
 ---
@@ -76,10 +67,9 @@ Dari dataset berikut ini, manakah yang termasuk Tidy Data? Dapatkah Anda menjela
 
 ```{r}
 table1
-table2
-table3
-table4a
-table4b
-table5
+table2 #data tidak tidy karena data variabel disimpan sebagai baris
+table3 #data tidak tidy karena data 'rate' menyimpan 2 variabel harusnya dibagi menjadi 2
+table4a #data tidak tidy karena data variabel disimpan sebagai kolom
+table4b #sama seperti tabel 4a
+table5 #data tidak tidy karena 2 tipe kolom yang tidak sesuai
 ```
-Dari tabel diatas yang tidak termasuk kedalam tidy data adalah tabel 5 dan tabel 3, karena tipe data pada tiap kolomnya tidak sesuai dengan data yang ada.
