@@ -399,4 +399,4 @@ table5
 ## 5 China       19      99    212258/1272915272
 ## 6 China       20      00    213766/1280428583
 ```
-Dari tabel diatas yang tidak termasuk kedalam tidy data adalah tabel 5, karena tipe data pada tiap kolomnya tidak sesuai dengan data yang ada.
+Dari tabel diatas yang tidak termasuk kedalam tidy data adalah tabel 5 dan tabel 3, karena tipe data pada tiap kolomnya tidak sesuai dengan data yang ada.
